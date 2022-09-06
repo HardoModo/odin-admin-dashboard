@@ -5,4 +5,23 @@
 
 .container {
     display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
+}
+
+.dashboard {
+    background-color: aliceblue;
+}
+
+.main {
+    background-color:blueviolet;
+}
+
+.main-header {
+    background-color: bisque;
+}
+
+.main-area {
+    background-color: blue;
 }
