@@ -48,12 +48,30 @@
 
 .main-area-col-1 {
     background-color:aqua;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+    padding: 10px;
+}
+
+.main-area-col-1 > div,
+.main-area-col-2 > div,
+.main-area-col-3 > div {
+    background-color: aliceblue;
 }
 
 .main-area-col-2 {
     background-color:lightseagreen;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+    padding: 10px;
 }
 
 .main-area-col-3 {
     background-color:aqua;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+    padding: 10px;
 }
