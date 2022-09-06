@@ -1,6 +1,5 @@
 * {
     margin: 0px;
-    background-color: aquamarine;
 }
 
 .container {
@@ -11,11 +10,30 @@
 }
 
 .dashboard {
-    background-color: aliceblue;
+    background-color: lightseagreen;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    display: grid;
+}
+
+.dashboard-logo {
+    color: aliceblue;
+}
+
+.dashboard-content-1 {
+    color: aliceblue;
+
+}
+
+.dashboard-content-2 {
+    color: aliceblue;
+
 }
 
 .main {
-    background-color:blueviolet;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 5fr;
 }
 
 .main-header {
@@ -23,5 +41,19 @@
 }
 
 .main-area {
-    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr;
+}
+
+.main-area-col-1 {
+    background-color:aqua;
+}
+
+.main-area-col-2 {
+    background-color:lightseagreen;
+}
+
+.main-area-col-3 {
+    background-color:aqua;
 }
