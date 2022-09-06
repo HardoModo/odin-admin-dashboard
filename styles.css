@@ -12,22 +12,17 @@
 .dashboard {
     background-color: lightseagreen;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 2fr;
+    row-gap: 10px;
     display: grid;
+    padding: 10px;
 }
 
-.dashboard-logo {
-    color: aliceblue;
-}
-
-.dashboard-content-1 {
-    color: aliceblue;
-
-}
-
+.dashboard-logo,
+.dashboard-content-1,
 .dashboard-content-2 {
-    color: aliceblue;
-
+    color: white;
+    border: 1px solid red;
 }
 
 .main {
@@ -39,7 +34,7 @@
 .main-header {
     background-color: white;
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 4fr 3fr;
     column-gap: 10px;
     padding: 10px;
 }
